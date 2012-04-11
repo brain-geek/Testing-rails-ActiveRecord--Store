@@ -14,6 +14,7 @@
 ActiveRecord::Schema.define(:version => 20120411130424) do
 
   create_table "bases", :force => true do |t|
+    t.string   "type"
     t.text     "settings"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
